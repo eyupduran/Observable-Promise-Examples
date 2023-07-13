@@ -1,0 +1,7 @@
+<div *ngIf="receivedMessage || receivedMessageBehaviorSubject" class="receiver">
+    <hr>
+    <h1>RECEİVER</h1>
+    <p *ngIf="receivedMessage" >Received message from sender: {{receivedMessage}}</p>
+    <hr>
+    <p *ngIf="receivedMessageBehaviorSubject">Received message from sender with behavior subject: {{receivedMessageBehaviorSubject}}</p>
+</div>

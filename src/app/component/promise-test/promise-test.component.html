@@ -1,0 +1,11 @@
+<div class="promise">
+    <button (click)="triggerPromise()">Trigger Promise</button>
+    <div *ngIf="isStarted">
+        <p *ngIf="first">{{first}}</p>
+        <p *ngIf="second">{{second}}</p>
+        <p *ngIf="third">{{third}}</p>
+        <hr>
+        <p *ngIf="success">{{success}}</p>
+        <p *ngIf="fail">{{fail}}</p>
+    </div>
+</div>
